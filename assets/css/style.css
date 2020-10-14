@@ -1,0 +1,241 @@
+body {
+    margin: 0 !important;
+    font-family: 'Source Sans Pro', sans-serif;
+} 
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.topEmpty {
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+.midContainer {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+}
+.botEmpty {
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+.leftEmpty {
+    height: 100%;
+    display: flex;
+    flex: 1;
+}
+.objectContainer {
+    height: 100%;
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e7e3db;
+    background-image: url("../img/hotel.jpg");
+    background-size: 100% 45%;
+    background-repeat: no-repeat;
+}
+.rightEmpty {
+    height: 100%;
+    display: flex;
+    flex: 1;
+}
+.topContainer {
+    height: 45%;
+    width: 100%;
+}
+.botContainer {
+    height: 55%;
+    width: 100%;
+}
+.firstLine {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.firstLine-L {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.row-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+#title {
+    width: fit-content;
+    display: flex;
+    align-self: center;
+    padding: 0% 3% 0% 5%;
+    font-weight: bold;
+    color: #092a5e;
+}
+.smallIcon {
+    height: 60%;
+    display: flex;
+    flex: 1;
+    align-self: center;
+    background-image: url("../img/smallM.PNG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.row-2 {
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+.country {
+    width: fit-content;
+    display: inline-flex;
+    padding-left: 5%;
+    font-size: smaller;
+    color: #737373;
+}
+.firstLine-R {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.rightIcon {
+    height: 90%;
+    width: 90%;
+    align-self: center;
+    background-image: url("../img/logoMarmara.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.secondLine {
+    height: 15%;
+    width: 100%;
+    display: flex;
+}
+#grade {
+    height: fit-content;
+    padding-left: 5%;
+    align-self: center;
+    color: #70cbf4;
+}
+#review {
+    height: fit-content;
+    padding-left: 2%;
+    align-self: center;
+    color: #092a5e;
+}
+.thirdLine, .fifthLine {
+    height: 10%;
+    width: 100%;
+}
+.fifthLine-T {
+    padding-left: 0;
+    font-weight: bold;
+}
+.fourthLine {
+    height: 15%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+}
+.fourthLine-L {
+    height: 100%;
+    flex: 1;
+    display: flex;
+}
+.fourthLine-L-L {
+    display: flex;
+}
+#price {
+    height: fit-content;
+    align-self: center;
+    color: #d40e14;
+    font-size: xx-large;
+    font-weight: normal;
+}
+.fourthLine-L-M {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+.fourthLine-L-M-T {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.fourthLine-L-M-B {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+#priceT {
+    height: 50%;
+    font-size: small;
+    color: #d40e14;
+}
+#priceB {
+    height: 50%;
+    font-size: small;
+    color: #d40e14;
+}
+.fourthLine-L-R {
+    width: 10%;
+    align-self: center;
+    color: #d40e14;
+    font-size: small;
+}
+.fourthLine-M {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: #d40e14;
+}
+#sale {
+    height: fit-content;
+    align-self: center;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.fourthLine-R {
+    height: 100%;
+    flex: 1;
+}
+.sixthLine {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.sixthLine-L {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    padding-left: 5%;
+}
+.sixthLine-R {
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+.cbIcon {
+    height: 90%;
+    width: 90%;
+    align-self: center;
+    background-image: url("../img/logo3x.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sixFix {
+    align-self: center;
+    padding-left: 0%;
+}
