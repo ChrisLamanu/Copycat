@@ -239,3 +239,72 @@ body {
     align-self: center;
     padding-left: 0%;
 }
+
+@media screen and (min-width: 0px) {
+    .objectContainer {
+        width: 100%;
+    }
+    .topEmpty {
+        display: none;
+    }
+}
+@media screen and (min-width: 320px) {
+    .objectContainer {
+        width: 90%;
+    }
+    .topEmpty {
+        display: flex;
+    }
+}
+@media screen and (min-width: 420px) {
+    .objectContainer {
+        width: 75%;
+    }
+}
+@media screen and (min-width: 480px) {
+    .objectContainer {
+        width: 60%;
+    } 
+}
+@media screen and (min-width: 540px) {
+    .objectContainer {
+        width: 52%;
+    }
+}
+@media screen and (min-width: 640px) {
+    .objectContainer {
+        width: 48%;
+    }
+}
+@media screen and (min-width: 720px) {
+    .objectContainer {
+        width: 42%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .objectContainer {
+        width: 42%;
+    }
+}
+@media screen and (min-width: 828px) {
+    .objectContainer {
+        background-size: 100% 40%;
+        width: 39%;
+    }
+}
+@media screen and (min-width: 960px) {
+    .objectContainer {
+        background-size: 100% 45%;
+        width: 32%;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .objectContainer {
+        width: 30%;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .objectContainer {
+        width: 28%;
+    }
+}
